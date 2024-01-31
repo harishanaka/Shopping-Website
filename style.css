@@ -20,7 +20,7 @@ input {
 button {
   width: 100%;
   padding: 10px;
-  background-color:blue;
+  background-color:orangered;
   color:white;
   border: none;
   border-radius: 5px;
@@ -29,7 +29,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color:black;
 }
 
 .error-message {
