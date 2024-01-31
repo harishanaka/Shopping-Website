@@ -18,8 +18,7 @@ const App = () => {
       setErrorMessage('Please enter both email and password to sign in.');
       return;
     }
-    // Perform sign-in logic
-    // If unsuccessful, setErrorMessage('Incorrect email or password');
+    
   };
 
   const handleSignUp = () => {
@@ -34,19 +33,14 @@ const App = () => {
     if(password === confirmPassword) {
       setSuccessMessage('Account created successfully!');
     }
-    // Perform sign-up logic
-    // If successful, setSuccessMessage('Account created successfully!');
-    // If unsuccessful, setErrorMessage('Sign up failed. Please try again.');
-  };
+    
 
   const handleForgotPassword = () => {
     if (!forgotPasswordEmail) {
       setErrorMessage('Please enter your email to reset the password.');
       return;
     }
-    // Perform forgot password logic
-    // If successful, setSuccessMessage('A reset link is sent to your email.');
-    // If unsuccessful, setErrorMessage('Email not found. Please try again.');
+    
   };
 
   const goToSignIn = () => {
